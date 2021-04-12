@@ -90,6 +90,7 @@ function muunnaTaulukoksi()
   taulu += '</table>';
   document.getElementById('ttaulu').innerHTML = taulu;
 }
+// Tehtävä 2 oli aika vaikea joten jouduin kopsaamaan mutta ymmärsin nyt mielestäni tämän tehtävän koodin.
 function teeLomake()
 {
   var lomake = '<p>Anna tilinro:<input type="text" id="tilinro" value=""></p>';
@@ -149,4 +150,5 @@ function arvoLotto()
 
   document.getElementById('ltaulu').innerHTML = '<p>'+lnumerot+'</p>';
 }
-//En ajallaan saa tätäkään tehtyä niin pakko kopsata :(
+/*Viikon 3 jälkimmäiset tehtävät olivat mielestäni todella haastavia ja muutenkin vaikeita kun en aluksi oikein päässyt
+sisään tähän javascript hommaan mutta olen nyt opiskellut ja alkanut ottaa vähän enemmän kiinni ja ymmärtämään paljon enemmän*/
