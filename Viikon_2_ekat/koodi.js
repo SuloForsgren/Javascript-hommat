@@ -82,9 +82,9 @@ function etsiSuurin()
       document.write("<br>Antamasi luku on pariton");
     }
   }
-  function ajoneuvo()
+  function munfunktio()
   {
-    var age = parseInt(document.getElementById('ika').value);
+    var age = parseInt(document.getElementById('kayttaja').value);
     if(age < 16)
     {
       document.write("Voit ajaa polkupyörää");
@@ -112,3 +112,4 @@ function etsiSuurin()
       document.write("Hola Mundo!");
     }
   }
+//Katsoin mallia sinun koodista mutta yritin myös itse
